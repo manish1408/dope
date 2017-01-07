@@ -1,5 +1,5 @@
 {
-  "name": "ionFullApp",
+  "name": "Ionic-Starter-Kit",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",
