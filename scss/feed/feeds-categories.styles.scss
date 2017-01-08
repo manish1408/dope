@@ -5,6 +5,9 @@
 	.categories-list
 	{
 		@include flex-wrap(wrap);
+		.col {
+			padding:1px;
+		}
 	}
 
 	.feed-category
