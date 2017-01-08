@@ -43,8 +43,3 @@ ionic run <PLATFORM>
 ```
 ionic package <MODE> <PLATFORM>
 ```
-
-For more help use ```ionic --help``` or visit the Ionic docs: http://ionicframework.com/docs
-
-
-You can find the documentation here: http://bit.ly/ionicthemes-ionfullapp
