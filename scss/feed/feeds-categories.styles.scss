@@ -75,7 +75,16 @@
 			text-transform: capitalize;
 			font-size: 13px;
 		}
+		
 	}
+	.top-buttons{
+			padding: 2px 0px 7px 0px !important;
+			button {
+				border-radius: 50px;
+				padding: 0px 8px 0px 8px;
+				min-width: 75px;
+			}
+		}
 }
 a.feed-category {
 			background-color: $feed-category-bg !important;

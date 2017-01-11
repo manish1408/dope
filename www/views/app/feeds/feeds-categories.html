@@ -5,15 +5,29 @@
   <ion-nav-title>
     <span>People</span>
   </ion-nav-title>
+
   <ion-content>
+  
     <div class="row categories-list">
+    <div class="top-buttons col col-33 text-center">
+      <button class="button button-small button-positive">
+        Trending
+    </div>
+     <div class="top-buttons col col-33 text-center">
+      <button class="button button-small button-stable">
+        Popular
+    </div>
+     <div class="top-buttons col col-33 text-center">
+      <button class="button button-small button-stable">
+        Freinds
+    </div>
       <div ng-repeat="category in feeds_categories" class="col col-50">
         <a class="feed-category" ui-sref="app.category-feeds({categoryId: (category.title | slugify)})">
           <pre-img ratio="_1_1" helper-class="square-image">
             <img class="category-image" ng-src="{{category.image}}" spinner-on-load>
           </pre-img>
           <div class="category-bg"></div>
-           <span class="category-title"> 352 Views</span>
+          <span class="category-title"> 352 Views</span>
           <!--<span class="category-title">{{category.title}}</span>-->
           <span class="category-rating">8.3</span>
           <span class="category-name">Logan Sanders</span>
