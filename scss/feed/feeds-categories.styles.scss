@@ -18,7 +18,7 @@
 		border-radius: 2px;
 		position: relative;
 		display: block;
-
+		
 		.category-image
 		{
 			width: 100%;
@@ -47,12 +47,36 @@
 		}
 		.category-rating
 		{
-			color: $feed-category-color;
+			color: yellow;
 			position: absolute;
-			top: 120px;
-			right: 8px;
+			bottom: 65px;
+			right: 6px;
 			font-weight: 500;
 			text-transform: capitalize;
+			font-size: 30px;
+		}
+		.category-name
+		{
+			color: $feed-category-color;
+			position: absolute;
+			bottom: 34px;
+			left: 5px;
+			font-weight: 500;
+			text-transform: capitalize;
+			font-size: 17px;
+		}
+		.category-reviews
+		{
+			color: $feed-category-color;
+			position: absolute;
+			bottom: 6px;
+			left: 5px;
+			font-weight: 500;
+			text-transform: capitalize;
+			font-size: 13px;
 		}
 	}
 }
+a.feed-category {
+			background-color: $feed-category-bg !important;
+		}
